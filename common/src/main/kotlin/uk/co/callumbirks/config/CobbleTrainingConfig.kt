@@ -8,7 +8,7 @@ import java.io.PrintWriter
 
 @Suppress("unused")
 class CobbleTrainingConfig {
-    val ivIncrease: Int = 5
+    val ivIncrease: Int = 1
 
     companion object {
         fun load(): CobbleTrainingConfig {

@@ -11,7 +11,7 @@ import net.minecraft.text.Text
 import uk.co.callumbirks.CobbleTraining
 import kotlin.math.min
 
-class BottleCap(private val ivStat: Stat): Item(Settings()), PokemonEntityInteraction {
+class BottleCap(private val ivStat: Stat) : Item(Settings()), PokemonEntityInteraction {
     override val accepted: Set<PokemonEntityInteraction.Ownership> = setOf(PokemonEntityInteraction.Ownership.OWNER)
 
     override fun processInteraction(player: ServerPlayerEntity, entity: PokemonEntity, stack: ItemStack): Boolean {
@@ -27,8 +27,12 @@ class BottleCap(private val ivStat: Stat): Item(Settings()), PokemonEntityIntera
             return false
         }
 
-        entity.pokemon.setIV(ivStat, min(IVs.MAX_VALUE, existingIV + CobbleTraining.CONFIG.ivIncrease))
+        val newIV = min(IVs.MAX_VALUE, existingIV + CobbleTraining.CONFIG.ivIncrease)
+
+        entity.pokemon.setIV(ivStat, newIV)
         stack.count -= 1
+
+        player.sendMessage(Text.translatable("message.${CobbleTraining.MOD_ID}.inc_${ivStat.showdownId}", entity.displayName, newIV))
 
         return true
     }

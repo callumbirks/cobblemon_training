@@ -11,5 +11,11 @@
   "message.cobblemon_training.max_hp": "This Pokémon already has maximum Health IV!",
   "message.cobblemon_training.max_spa": "This Pokémon already has maximum Special Attack IV!",
   "message.cobblemon_training.max_spd": "This Pokémon already has maximum Special Defence IV!",
-  "message.cobblemon_training.max_spe": "This Pokémon already has maximum Speed IV!"
+  "message.cobblemon_training.max_spe": "This Pokémon already has maximum Speed IV!",
+  "message.cobblemon_training.inc_atk": "Increased %1$s's Attack IV to %2$s",
+  "message.cobblemon_training.inc_def": "Increased %1$s's Defence IV to %2$s",
+  "message.cobblemon_training.inc_hp": "Increased %1$s's Health IV to %2$s",
+  "message.cobblemon_training.inc_spa": "Increased %1$s's Special Attack IV to %2$s",
+  "message.cobblemon_training.inc_spd": "Increased %1$s's Special Defence IV to %2$s",
+  "message.cobblemon_training.inc_spe": "Increased %1$s's Speed IV to %2$s"
 }
