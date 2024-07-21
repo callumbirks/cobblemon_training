@@ -36,6 +36,11 @@ object CobbleTrainingItemGroups {
     private object ItemEntries : EntryCollector {
         override fun accept(displayContext: ItemGroup.DisplayContext, entries: ItemGroup.Entries) {
             entries.add(CobbleTrainingItems.BOTTLECAP_ATTACK)
+            entries.add(CobbleTrainingItems.BOTTLECAP_DEFENCE)
+            entries.add(CobbleTrainingItems.BOTTLECAP_HEALTH)
+            entries.add(CobbleTrainingItems.BOTTLECAP_SPATTACK)
+            entries.add(CobbleTrainingItems.BOTTLECAP_SPDEFENCE)
+            entries.add(CobbleTrainingItems.BOTTLECAP_SPEED)
         }
     }
 }
