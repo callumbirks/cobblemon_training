@@ -1,6 +1,6 @@
-package uk.co.callumbirks.config
+package uk.co.callumbirks.cobblemon_training.config
 
-import uk.co.callumbirks.CobbleTraining
+import uk.co.callumbirks.cobblemon_training.CobbleTraining
 import com.google.gson.GsonBuilder
 import java.io.File
 import java.io.FileReader

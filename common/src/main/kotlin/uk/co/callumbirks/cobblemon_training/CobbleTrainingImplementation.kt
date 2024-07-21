@@ -1,4 +1,4 @@
-package uk.co.callumbirks
+package uk.co.callumbirks.cobblemon_training
 
 import net.minecraft.server.MinecraftServer
 

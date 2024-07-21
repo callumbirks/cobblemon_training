@@ -1,4 +1,4 @@
-package uk.co.callumbirks.item
+package uk.co.callumbirks.cobblemon_training.item
 
 import com.cobblemon.mod.common.api.interaction.PokemonEntityInteraction
 import com.cobblemon.mod.common.api.pokemon.stats.Stat
@@ -8,7 +8,7 @@ import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
 import net.minecraft.server.network.ServerPlayerEntity
 import net.minecraft.text.Text
-import uk.co.callumbirks.CobbleTraining
+import uk.co.callumbirks.cobblemon_training.CobbleTraining
 import kotlin.math.min
 
 class BottleCap(private val ivStat: Stat) : Item(Settings()), PokemonEntityInteraction {

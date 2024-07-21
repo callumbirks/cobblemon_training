@@ -1,4 +1,4 @@
-package uk.co.callumbirks.forge
+package uk.co.callumbirks.cobblemon_training.forge
 
 import net.minecraft.item.ItemGroup
 import net.minecraft.registry.RegistryKeys
@@ -10,6 +10,7 @@ import net.minecraftforge.registries.RegisterEvent
 import net.minecraftforge.server.ServerLifecycleHooks
 import thedarkcolour.kotlinforforge.forge.MOD_BUS
 import uk.co.callumbirks.*
+import uk.co.callumbirks.cobblemon_training.*
 
 @Suppress("unused", "UNUSED_PARAMETER", "MemberVisibilityCanBePrivate")
 @Mod(CobbleTraining.MOD_ID)

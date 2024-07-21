@@ -1,6 +1,6 @@
-package uk.co.callumbirks
+package uk.co.callumbirks.cobblemon_training
 
-import uk.co.callumbirks.CobbleTraining.exampleModResource
+import uk.co.callumbirks.cobblemon_training.CobbleTraining.exampleModResource
 import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemGroup.EntryCollector
 import net.minecraft.item.ItemStack

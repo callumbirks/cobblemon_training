@@ -1,6 +1,6 @@
-package uk.co.callumbirks
+package uk.co.callumbirks.cobblemon_training
 
-import uk.co.callumbirks.config.CobbleTrainingConfig
+import uk.co.callumbirks.cobblemon_training.config.CobbleTrainingConfig
 import net.minecraft.util.Identifier
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory

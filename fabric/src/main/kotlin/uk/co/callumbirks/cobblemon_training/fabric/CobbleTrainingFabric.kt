@@ -1,4 +1,4 @@
-package uk.co.callumbirks.fabric
+package uk.co.callumbirks.cobblemon_training.fabric
 
 import net.fabricmc.api.EnvType
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.server.MinecraftServer
 import uk.co.callumbirks.*
+import uk.co.callumbirks.cobblemon_training.*
 
 object CobbleTrainingFabric : CobbleTrainingImplementation {
     fun initialize() {

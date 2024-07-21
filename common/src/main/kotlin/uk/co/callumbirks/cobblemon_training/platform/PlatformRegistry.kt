@@ -1,9 +1,9 @@
-package uk.co.callumbirks.platform
+package uk.co.callumbirks.cobblemon_training.platform
 
 import net.minecraft.registry.Registry
 import net.minecraft.registry.RegistryKey
 import net.minecraft.util.Identifier
-import uk.co.callumbirks.CobbleTraining.exampleModResource
+import uk.co.callumbirks.cobblemon_training.CobbleTraining.exampleModResource
 
 abstract class PlatformRegistry<R: Registry<T>, K : RegistryKey<R>, T> {
     /**

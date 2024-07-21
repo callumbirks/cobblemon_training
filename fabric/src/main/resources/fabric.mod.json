@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "uk.co.callumbirks.fabric.FabricBootstrap"
+      "uk.co.callumbirks.cobblemon_training.fabric.FabricBootstrap"
     ]
   },
   "depends": {

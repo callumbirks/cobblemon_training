@@ -1,4 +1,4 @@
-package uk.co.callumbirks.fabric
+package uk.co.callumbirks.cobblemon_training.fabric
 
 import net.fabricmc.api.ModInitializer
 
