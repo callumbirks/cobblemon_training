@@ -4,44 +4,44 @@ loaderVersion = "[4,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "example_mod"
+modId = "cobblemon_training"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Cobblemon Training"
+authors = "Callum Birks"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+IV train Cobblemon Pokemon using Bottlecaps!
 '''
-#logoFile = ""
+logoFile = "assets/cobblemon_training/icon.png"
 
-[[dependencies.example_mod]]
+[[dependencies.cobblemon_training]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.example_mod]]
+[[dependencies.cobblemon_training]]
 modId = "kotlinforforge"
 mandatory = true
 versionRange = "[4,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.example_mod]]
+[[dependencies.cobblemon_training]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.example_mod]]
+[[dependencies.cobblemon_training]]
 modId = "architectury"
 mandatory = true
 versionRange = "[9.2.14,)"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.example_mod]]
+[[dependencies.cobblemon_training]]
 modId = "cobblemon"
 mandatory = true
 versionRange = "1.5.2+1.20.1"

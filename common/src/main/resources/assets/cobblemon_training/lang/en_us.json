@@ -1,0 +1,15 @@
+{
+  "itemGroup.cobblemon_training.items": "Bottle Caps",
+  "item.cobblemon_training.bottlecap_attack": "Attack Bottle Cap",
+  "item.cobblemon_training.bottlecap_defence": "Defence Bottle Cap",
+  "item.cobblemon_training.bottlecap_health": "Health Bottle Cap",
+  "item.cobblemon_training.bottlecap_spattack": "Special Attack Bottle Cap",
+  "item.cobblemon_training.bottlecap_spdefence": "Special Defence Bottle Cap",
+  "item.cobblemon_training.bottlecap_speed": "Speed Bottle Cap",
+  "message.cobblemon_training.max_atk": "This Pokémon already has maximum Attack IV!",
+  "message.cobblemon_training.max_def": "This Pokémon already has maximum Defence IV!",
+  "message.cobblemon_training.max_hp": "This Pokémon already has maximum Health IV!",
+  "message.cobblemon_training.max_spa": "This Pokémon already has maximum Special Attack IV!",
+  "message.cobblemon_training.max_spd": "This Pokémon already has maximum Special Defence IV!",
+  "message.cobblemon_training.max_spe": "This Pokémon already has maximum Speed IV!"
+}

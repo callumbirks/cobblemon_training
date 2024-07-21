@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "example_mod",
+  "id": "cobblemon_training",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Cobblemon Training",
+  "description": "IV train Cobblemon Pokemon using Bottlecaps!",
   "authors": [
-    "Me!"
+    "Callum Birks"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/callumbirks/cobblemon-addon-template"
+    "sources": "https://github.com/callumbirks/cobblemon_training"
   },
   "license": "CC0-1.0",
-  "icon": "assets/example_mod/icon.png",
+  "icon": "assets/cobblemon_training/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.fabric.FabricBootstrap"
+      "uk.co.callumbirks.fabric.FabricBootstrap"
     ]
   },
   "depends": {
