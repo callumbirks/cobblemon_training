@@ -21,6 +21,7 @@ object CobbleTraining {
     }
 
     fun initialize() {
+        CobbleTrainingLoot.register()
         when (implementation.environment()) {
             Environment.CLIENT -> initializeClient()
             Environment.SERVER -> initializeServer()
@@ -35,7 +36,7 @@ object CobbleTraining {
         // Server-side specific initialization
     }
 
-    fun exampleModResource(name: String): Identifier {
+    fun cobbleTrainingResource(name: String): Identifier {
         return Identifier(MOD_ID, name)
     }
 }

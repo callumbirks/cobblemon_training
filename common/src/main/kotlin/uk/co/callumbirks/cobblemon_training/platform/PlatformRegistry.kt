@@ -3,7 +3,7 @@ package uk.co.callumbirks.cobblemon_training.platform
 import net.minecraft.registry.Registry
 import net.minecraft.registry.RegistryKey
 import net.minecraft.util.Identifier
-import uk.co.callumbirks.cobblemon_training.CobbleTraining.exampleModResource
+import uk.co.callumbirks.cobblemon_training.CobbleTraining.cobbleTrainingResource
 
 abstract class PlatformRegistry<R: Registry<T>, K : RegistryKey<R>, T> {
     /**
@@ -26,7 +26,7 @@ abstract class PlatformRegistry<R: Registry<T>, K : RegistryKey<R>, T> {
      * @return The entry created
      */
     open fun <E : T> create(name: String, entry: E): E {
-        val identifier = exampleModResource(name)
+        val identifier = cobbleTrainingResource(name)
         this.queue[identifier] = entry
         return entry
     }

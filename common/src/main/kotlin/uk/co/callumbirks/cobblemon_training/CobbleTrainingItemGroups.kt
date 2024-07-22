@@ -1,6 +1,6 @@
 package uk.co.callumbirks.cobblemon_training
 
-import uk.co.callumbirks.cobblemon_training.CobbleTraining.exampleModResource
+import uk.co.callumbirks.cobblemon_training.CobbleTraining.cobbleTrainingResource
 import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemGroup.EntryCollector
 import net.minecraft.item.ItemStack
@@ -21,7 +21,7 @@ object CobbleTrainingItemGroups {
     }
 
     private fun create(name: String, entryCollector: EntryCollector, displayIconProvider: () -> ItemStack): RegistryKey<ItemGroup> {
-        val key = RegistryKey.of(Registries.ITEM_GROUP.key, exampleModResource(name))
+        val key = RegistryKey.of(Registries.ITEM_GROUP.key, cobbleTrainingResource(name))
         ALL += ItemGroupHolder(key, displayIconProvider, entryCollector)
         return key
     }
